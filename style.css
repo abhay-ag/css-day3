@@ -1,0 +1,339 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'source sans pro';
+}
+::-webkit-scrollbar{
+    display: none;
+}
+body{
+    overflow-x: hidden;
+}
+.main{
+    box-sizing: border-box;
+    display: flex;
+    width: 100vw;
+    height: 90vh;
+    overflow: hidden;
+    position: relative;
+}
+.main .cover{
+    width: 100%;
+    height: 90vh;
+    background-color: rgba(0,0,0,0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.data{
+    width: 65%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+}
+.data  h1{
+    line-height: 3.8vw;
+    font-size: 4vw;
+    font-weight: 900;
+}
+.data h2{
+    margin-top: 3vw;
+    font-weight: 600;
+}
+.data .inputs{
+    margin-top: 5vw;
+}
+.data input[type = "email"]{
+    font-size: 1.5vw;
+    outline: none;
+    border: none;
+    padding: 10px;
+    box-sizing: border-box;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+.data button{
+    border: none;
+    outline: none;
+    font-size: 1.5vw;
+    padding: 10px;
+    background-color: rgb(253, 50, 50);
+    color: white;
+    font-weight: 600;
+    width: 20%;
+}
+.content{
+    width: 65%;
+    height: 80vh;
+    margin: 4vw auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    box-sizing: border-box;
+}
+.splitleft button,
+.content button,
+.container button{
+    position: absolute;
+    bottom: 2vw;
+    font-size: 1.5vw;
+    padding: 10px;
+    box-sizing: border-box;
+    color: white;
+    outline: none;
+    border: none;
+    background-color: rgb(253, 50, 50);
+    font-weight: 400;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.written{
+    width: 100%;
+    display: flex;
+}
+.contents{
+    flex: 1;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    font-size: 1.06vw;
+    line-height: 1.5vw;
+}
+.contents h1{
+    font-size: 3vw;
+    font-weight: 600;
+    line-height: 2.6vw;
+}
+.service{
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    margin-top: 10vh;
+}
+.services{
+    flex: 1;
+    box-sizing: border-box;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.services h1{
+    margin-top: 1vw;
+    color: rgb(253, 50, 50);
+    font-weight: 600;
+}
+.services font{
+    font-size: 1vw;
+    margin-top: 2vw;
+    color: #1f1f1f;
+    text-align: center;
+    font-weight: 400;
+}
+.services .logo{
+    width: 4vw;
+    height: 4vw;
+    background-color: rgba(255,0,0,0.1);
+    border-radius: 50%;
+}
+.section3{
+    width: 100%;
+    height: 75vh;
+    background-color: rgb(50,50,50);
+    margin-bottom: 5vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.section3 .content{
+    width: 60%;
+    height: 65vh;
+    display: flex;
+    flex-direction: row;
+}
+.section3 .content .container{
+    flex: 1;
+    height: 65vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    color: white;
+    position: relative;
+    text-align: center;
+    font-size: 1vw;
+}
+.container h1{
+    font-weight: 600;
+    font-size: 2.5vw;
+    color: white;
+    line-height: 2.2vw;
+    margin-bottom: 4vw;
+}
+.dabba{
+    width: 15vw;
+    height: 15vw;
+    background-color: rgb(253, 50, 50);
+}
+.section4{
+    width: 100%;
+    height: 60vh;
+    margin-top: -1vw;
+    margin-bottom: 5vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.section4 .content{
+    width: 60%;
+    height: 50vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.splitleft{
+    flex: 1.5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 50vh;
+    white-space: normal;
+    box-sizing: border-box;
+    padding-right: 20px;
+}
+.splitleft h1{
+    font-size: 2.4vw;
+    letter-spacing: 2px;
+}
+.splitleft h2{
+    margin-top: 3vw;
+    font-size: 1.2vw;
+    font-weight: 400;
+    margin-bottom: 2vw;
+}
+.splitright{
+    flex: 0.7;
+    height: 50vh;
+    overflow: hidden;
+}
+.section5{
+    width: 60%;
+    margin: -1vw auto 1vw auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.section5 h1{
+    font-size: 2.5vw;
+    margin-bottom: 0.5vw;
+}
+.section5 .work{
+    width: 100%;
+    height: 29vh;
+    display: flex;
+    justify-content: space-between;margin-bottom: 0.5vw;
+}
+.section5 .work .img{
+    width: 33%;
+    height: 29vh;
+    overflow: hidden;
+    position: relative;
+}
+.section5 .work .img .coverr{
+    width: 100%;
+    height: inherit;
+    background-color: rgba(0,0,0,0.2);
+    opacity: 0;
+    transition: opacity 230ms ease;
+}
+.section5 .work .img:hover .coverr{
+    opacity: 1;
+}
+.section5 button{
+    font-size: 1.5vw;
+    padding: 10px;
+    box-sizing: border-box;
+    color: white;
+    outline: none;
+    border: none;
+    background-color: rgb(253, 50, 50);
+    font-weight: 400;
+    margin-top: 1vw;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.section6{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.section6  .content{
+    width: 60%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    justify-content: center;
+}
+.section6 .content h1{
+    font-size: 2.4vw;
+    margin-bottom: 2vw;
+}
+.section6 .content h2{
+    font-weight: 400;
+    font-size: 1vw;
+}
+.column{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.light{
+    margin-top: 3vw;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+.light .contents{
+    flex: 1;
+    box-sizing: border-box;
+    padding-left: 15px;
+    padding-right: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+.light .cover{
+    width: 8vw;
+    height: 8vw;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.footer{
+    width: 100%;
+    height: 25vh;
+    background-color: rgb(50,50,50);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+.footer h2{
+    font-weight: 200;
+    text-align: center;
+    margin-top: 3vw;
+}
+.footer a{
+    color: rgb(150, 188, 238);
+    font-size: 1vw;
+    margin-top: 3vw;
+}
